@@ -1,0 +1,5 @@
+
+<launch>
+    <node pkg="nodelet" type="nodelet" name="man" args="manager" output="screen"/>
+    <node pkg="nodelet" type="nodelet" name="TestNodelet" args="load embarcados_nodelet/TestNodelet man" output="screen"/>
+</launch>

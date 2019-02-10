@@ -1,0 +1,9 @@
+<library path="lib/libembarcados_nodelet">
+    <class name ="embarcados_nodelet/TestNodelet" 
+        type="embarcados_ros_nodelet::TestNodelet"
+        base_class_type="nodelet::Nodelet">
+        <description>
+            This is a Embarcados test nodelet
+        </description>
+        </class>
+</library> 
